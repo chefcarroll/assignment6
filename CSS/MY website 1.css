@@ -1,0 +1,95 @@
+  
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #006;
+      margin-top: 8.5%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;
+
+    }
+  div.container{
+    border: 5px double red;
+  }
+  .header-img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  header{
+    position: fixed;
+    background-color: darkgray;
+    text-align: center; 
+    top: 0%;
+    left: 0;
+    width: 100%;
+  }
+  
+  div.left, div.middle, div.right{
+    border: 3px  red;
+    width: 25%;
+  }
+  aside img{
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  aside{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  nav{
+background-color: #888;
+display: flex;
+flex-direction: row;
+flex: 1;
+
+  }
+
+  ul{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+  }
+  li{
+    display: inline-block;
+    width: 200px;
+    border: 2px solid white;
+    line-height: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    flex: 1;
+
+  }
+  a{
+    color: dark blue;
+    text-decoration: none;
+    display: block;
+
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+  }
+  .cycle-slideshow img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+  div.content
+  
+
+
+
+  
+
+  
+    
+    
+
+  
